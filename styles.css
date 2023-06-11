@@ -1,0 +1,141 @@
+
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: hsl(200, 100%, 10%);
+  font-family: sans-serif;
+}
+
+.header-left {
+  position: relative;
+  top: 20px;
+  left: 30px;
+    width:max-content;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border: 2px dashed hsla(277, 70%, 49%, 0.635);
+  justify-content: center;
+
+}
+
+
+.sunny {
+  color: #231d3c;
+  font-size: 90px;
+  display: block;
+}
+.header-current-temp {
+  font-size: 20px;
+  margin-top: auto;
+}
+span {
+  font-size: 80px;
+}
+
+/*
+.h1 {
+  position: relative;
+  top: 9px;
+}
+.header-current-temp {
+  position: relative;
+   top: 10px;
+   font-size: 50px;
+   
+
+}
+p {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  margin: 0px;
+  padding: auto;
+
+}
+ .sunny {
+  position: relative;
+   font-size: 50px;
+   top: -100px;
+   left: 200px;
+}
+*/
+
+.header-right {
+  position: relative;
+  left : 30px;
+  top: -310px;
+     width: max-content;
+
+    align-items: center;
+margin-right: 0px;
+    padding: 17px 10px;
+    border: 2px dashed hsla(277, 70%, 49%, 0.635);
+    right: -80px;
+   justify-content: flex-end;
+}
+
+
+/*
+.form {
+  position: relative;
+  display: block;
+  margin-top: -160px;
+  text-align: center;
+}
+
+.day-section {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 6px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.day-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid hsl(200, 100%, 10%);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px 20px;
+}
+
+.day-card-day {
+  font-size: 12px;
+  color: hsl(200, 100%, 10%);
+  margin-top: 8px;
+}
+
+.body-box {
+  border: 1px solid hsl(200, 100%, 10%);
+  border-radius: 5px;
+  margin: 80px 90px;
+  padding: auto;
+}
+
+.information {
+  margin-right: 30px;
+  display: grid;
+  width: 20%;
+  justify-content: space-around;
+  gap: 2px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  border: 2px dashed hsl(200, 100%, 10%);
+  padding: 20px 20px;
+}
+.time {
+  vertical-align: middle;
+  display: block;
+}
+.right-text {
+  vertical-align: bottom;
+  display: block;
+}
+
+.row {
+  position: fixed;
+}
